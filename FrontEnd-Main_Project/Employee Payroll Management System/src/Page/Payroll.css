@@ -1,0 +1,102 @@
+.payroll-page {
+    min-height: 100vh;
+    background: #f4f6f9;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.payroll-container {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.payroll-container h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.payroll-subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.salary-summary {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f1f5f9;
+    border-radius: 8px;
+}
+
+.salary-summary div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.salary-summary div:last-child {
+    margin-bottom: 0;
+}
+
+.salary-summary strong {
+    font-size: 18px;
+}
+
+.payroll-button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 7px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.payroll-button:hover {
+    background: #1d4ed8;
+}
+
+.payroll-message {
+    padding: 12px;
+    margin-bottom: 20px;
+    background: #dcfce7;
+    color: #166534;
+    border-radius: 6px;
+    text-align: center;
+}
